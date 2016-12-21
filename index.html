@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
     <meta charset="utf-8">
-    <title>The personal website of Pierre Irby</title>
+    <title>Personal Website</title>
     <!-- Bootstrap -->
 
-    <link rel="stylesheet" href="css/my_personal_website.css">
+    <link rel="stylesheet" href="css/mpwebsite.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+
 </head>
 <body>
-<div id="mainContainer" class="container-fluid">
-    <div id="leftMain" class="col-lg-6">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+<div id="flex-container">
+    <div id="leftMain" class="dimElement">
+        <p>Main Content</p>
     </div>
-    <div id="rightMain" class="col-lg-6">
-        <p> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+    <div id="rightMain">
+        <div id="personalTab" class="navBox">
+        <p> Personal </p>
+        </div>
+        <div id="professionalTab" class="navBox">
+            <p> Professional </p>
+        </div>
+        <div id="amateurTab" class="navBox">
+            <p> Amateur </p>
+        </div>
+        <!--<div id="contactMeTab" class="navBox">-->
+            <!--<p> Contact Me </p>-->
+        <!--</div>-->
+
     </div>
 </div>
+<script src="js/mpwebsite.js"></script>
 </body>
 </html>

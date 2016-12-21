@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    /*background-color: #202020;*/
+    /*opacity: .5;*/
+    /*z-index: 1;*/
+}
+p {
+    color: #A88037;
+}
+#flex-container {
+    height: 100%;
+    display: flex;
+}
+#leftMain{
+    /* Try to disable width when the rightMain box is selected*/
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rightMain {
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+}
+.navBox {
+    display:flex;
+    font-size: 2em;
+    flex-grow: 1;
+}
+#personalTab {
+background-image: url("../img/pianokeys.jpeg");
+    background-size: cover;
+    background-position: 0em;
+    align-items: flex-end;
+}
+#professionalTab {
+    background-image: url("../img/lifeOfCode.jpg");
+    background-size: cover;
+    background-position: 0em;
+    align-items: center;
+}
+#amateurTab {
+    background-image: url("../img/carlove.jpeg");
+    background-size: cover;
+    align-items: flex-start;
+}
